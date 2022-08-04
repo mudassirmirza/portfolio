@@ -1,8 +1,60 @@
-import React from "react";
+import React, { useState } from "react";
+import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import logo from "../assets/logo.svg";
 import "./navbar.scss";
 
+const Menu = function () {
+  return (
+    <>
+      <p>
+        <a className="navbar__links-effect" href="#skills">
+          Skills
+        </a>
+      </p>
+      <p>
+        <a className="navbar__links-effect" href="#projects">
+          Projects
+        </a>
+      </p>
+      <p>
+        <a className="navbar__links-effect" href="#contact">
+          Contact
+        </a>
+      </p>
+    </>
+  );
+};
+
 const Navbar = function () {
-  return <div>Navbar</div>;
+  const [menuToggle, setMenuToggle] = useState(false);
+  return (
+    <div className="navbar">
+      <div className="navbar__links">
+        <div className="navbar__links-logo">
+          <img src={logo} alt="logo" />
+        </div>
+        <div className="navbar__links-container">
+          <Menu />
+        </div>
+      </div>
+      {
+        <div className="navbar__menu">
+          {menuToggle ? (
+            <RiCloseLine color="#000" size={27} onClick={() => setMenuToggle(false)} />
+          ) : (
+            <RiMenu3Line color="#000" size={27} onClick={() => setMenuToggle(true)} />
+          )}
+          {menuToggle && (
+            <div className="navbar__menu-container scale-up-center">
+              <div className="navbar__menu-container_links">
+                <Menu />
+              </div>
+            </div>
+          )}
+        </div>
+      }
+    </div>
+  );
 };
 
 export default Navbar;
