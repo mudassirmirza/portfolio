@@ -4,7 +4,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <Header />
+      <Header />
+      {/* \
+      <Header />
       <Footer />
       <Skills />
       <Projects />

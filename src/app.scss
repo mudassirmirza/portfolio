@@ -7,11 +7,20 @@
 
 body {
   background: var(--color-bg);
+  font-family: var(--font-family);
 }
 
 .scale-up-center {
   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.section__margin {
+  margin: 4rem 6rem;
 }
 
 @-webkit-keyframes scale-up-center {
@@ -32,5 +41,24 @@ body {
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
+  }
+}
+@media screen and (max-width: 700px) {
+  .section__padding {
+    padding: 4rem;
+  }
+
+  .section__margin {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+
+  .section__margin {
+    margin: 4rem 2rem;
   }
 }

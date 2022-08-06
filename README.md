@@ -1,3 +1,3 @@
-#My Portfolio
+My Portfolio
 
 Currently a work in progress...
