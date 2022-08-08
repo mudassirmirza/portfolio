@@ -2,25 +2,29 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: auto;
 
-  padding: 2rem 6rem;
+  padding: 2rem 4rem;
 }
 
 .navbar__links {
   flex: 1;
   display: flex;
   align-items: center;
+
   a {
     text-decoration: none;
     color: black;
     font-weight: 400;
     font-size: 28px;
-    line-height: 27px;
     letter-spacing: 0.08em;
     text-transform: lowercase;
 
     margin: 0 3rem;
     cursor: pointer;
+  }
+  p {
+    overflow: hidden;
   }
 }
 
@@ -48,8 +52,7 @@
     text-decoration: none;
     color: black;
     font-weight: 400;
-    font-size: 28px;
-    line-height: 27px;
+    font-size: 2em;
     letter-spacing: 0.08em;
     text-transform: lowercase;
 

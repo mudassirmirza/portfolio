@@ -2,19 +2,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
-  height: 80vh;
-  width: 100vw;
+  min-height: 90vh;
 }
 
 .header__container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
+  gap: 10%;
 
-  margin: auto;
-  gap: 2rem;
   h1 {
     font-weight: 700;
     font-size: 4em;
@@ -30,14 +26,19 @@
     line-height: 155%;
   }
   img {
-    width: 60%;
+    max-width: 35rem;
   }
 }
 
+.header__container-content_buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
 .header__container-content_buttons button {
-  margin-top: 3rem;
-  width: 8em;
-  height: 2.25em;
+  margin-top: 2rem;
+  width: 10rem;
+  height: 3rem;
   border: 2px solid black;
   border-radius: 6px;
   font-family: var(--font-family);
@@ -53,7 +54,6 @@
 .btn__resume {
   background-color: var(--color-bg);
   color: var(--color-secondary);
-  margin-left: 1.5rem;
   cursor: pointer;
 }
 
@@ -67,11 +67,7 @@
   }
   .header__container {
     flex-direction: column;
-    img {
-      order: 1;
-      width: 24rem;
-      height: 24rem;
-    }
+
     h1 {
       font-size: 2em;
     }
@@ -79,10 +75,17 @@
     p {
       font-size: 1.5em;
     }
+    img {
+      order: 1;
+      max-width: 25rem;
+    }
   }
   .header__container-content {
     order: 2;
-    padding-top: 3vh;
+    margin-top: 5rem;
+  }
+  .header__container-content_buttons {
+    justify-content: center;
   }
 }
 @media screen and (max-width: 700px) {
@@ -98,8 +101,7 @@
     flex-direction: column;
     img {
       order: 1;
-      width: 24rem;
-      height: 24rem;
+      max-width: 20rem;
     }
     h1 {
       font-size: 2em;
@@ -122,28 +124,28 @@
 @media screen and (max-width: 550px) {
   .header {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    vertical-align: center;
   }
   .header__container {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     img {
       order: 1;
-      width: 20rem;
-      height: 20rem;
+      max-width: 15rem;
     }
     h1 {
       font-size: 2em;
     }
 
     p {
-      font-size: 1.5em;
+      font-size: 1.25em;
     }
   }
 
   .header__container-content {
     order: 2;
+    margin-top: 2rem;
   }
 }

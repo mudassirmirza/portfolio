@@ -5,11 +5,12 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
-      {/* \
-      <Header />
-      <Footer />
       <Skills />
       <Projects />
+      {/* \
+      <Footer />
+      
+      
       <Contact /> */}
     </div>
   );
