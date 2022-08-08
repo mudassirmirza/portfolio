@@ -39,7 +39,7 @@ const Projects = function () {
             description={
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac egestas in felis,              suspendisse consequat nascetur dictumst nulla. Nunc aliquet mauris praesent convallis commodo."
             }
-            technologies={["React", "JavaScript", "SASS", "HTML"]}
+            technologies={["React", "JavaScript", "SASS"]}
             source={spacestagram}
           />
           <Project
@@ -55,7 +55,7 @@ const Projects = function () {
             description={
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac egestas in felis,              suspendisse consequat nascetur dictumst nulla. Nunc aliquet mauris praesent convallis commodo."
             }
-            technologies={["JavaScript", "MongoDB", "Express.js", "Node.js", "HTML", "CSS"]}
+            technologies={["JavaScript", "MongoDB", "Express.js", "Node.js"]}
             source={compshop}
           />
           <Project
