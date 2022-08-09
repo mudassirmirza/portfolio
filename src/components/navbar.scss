@@ -2,8 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: auto;
-
+  height: 6rem;
+  width: 100vw;
+  position: fixed;
+  background-color: var(--color-bg);
   padding: 2rem 4rem;
 }
 
@@ -31,6 +33,7 @@
 .navbar__links-logo img {
   width: 10rem;
   height: 4rem;
+  cursor: pointer;
 }
 
 .navbar__links-container {

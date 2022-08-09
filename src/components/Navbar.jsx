@@ -31,7 +31,9 @@ const Navbar = function () {
     <div className="navbar">
       <div className="navbar__links">
         <div className="navbar__links-logo">
-          <img src={logo} alt="logo" />
+          <a href="#home">
+            <img src={logo} alt="logo" />
+          </a>
         </div>
         <div className="navbar__links-container">
           <Menu />
