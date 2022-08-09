@@ -6,7 +6,6 @@ import github from "../assets/contact/github.svg";
 import linkedin from "../assets/contact/linkedin.svg";
 import send from "../assets/contact/send.svg";
 const Contact = function () {
-  const handleSubmit = function () {};
   return (
     <div className="contact" id="contact">
       <div className="contact__container">

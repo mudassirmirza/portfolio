@@ -37,7 +37,7 @@ const Projects = function () {
           <Project
             title={"Spacestagram"}
             description={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac egestas in felis,              suspendisse consequat nascetur dictumst nulla. Nunc aliquet mauris praesent convallis commodo."
+              "Instagram clone website to view the NASA Astronomy Picture of the day. Infinitely scroll through the archives from today to June 16, 1995. Zoom into pictures, watch videos, and read each explanation to learn more about astronomy."
             }
             technologies={["React", "JavaScript", "SASS"]}
             source={spacestagram}
@@ -45,7 +45,7 @@ const Projects = function () {
           <Project
             title={"One for All"}
             description={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac egestas in felis,              suspendisse consequat nascetur dictumst nulla. Nunc aliquet mauris praesent convallis commodo."
+              "A mobile app that combines the catalogue of popular subscription streaming services such as Netflix, Amazon Prime Video, and Spotify. "
             }
             technologies={["Java", "Android Studio"]}
             source={oneforall}
@@ -53,7 +53,7 @@ const Projects = function () {
           <Project
             title={"CompShop"}
             description={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac egestas in felis,              suspendisse consequat nascetur dictumst nulla. Nunc aliquet mauris praesent convallis commodo."
+              "PC gaming eCommerce web application to log in, add PC parts to cart, and check out. Uses the PayPal REST API to authenticate the user and use the PayPal checkout method."
             }
             technologies={["JavaScript", "MongoDB", "Express.js", "Node.js"]}
             source={compshop}
@@ -61,7 +61,7 @@ const Projects = function () {
           <Project
             title={"MoviesDB"}
             description={
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac egestas in felis,              suspendisse consequat nascetur dictumst nulla. Nunc aliquet mauris praesent convallis commodo."
+              "A database that contains tables for movies, genres, actors, directors, and production companies. Populated the database with an idempotent SQL script. Wrote SQL queries to retrieve relevant information such as movies an actor stars in, movies directed by a specific director, and characters played by an actor."
             }
             technologies={["SQLite"]}
             source={moviesdb}
