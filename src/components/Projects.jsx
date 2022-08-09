@@ -4,13 +4,28 @@ import spacestagram from "../assets/projects/spacestagram.jpg";
 import oneforall from "../assets/projects/oneforall.jpg";
 import compshop from "../assets/projects/compshop.jpg";
 import moviesdb from "../assets/projects/moviesdb.jpg";
+import { AiOutlineLink } from "react-icons/ai/";
+import { FiGithub } from "react-icons/fi/";
 
 const Project = function (props) {
   return (
     <>
       <div className="project__card">
         <div className="project__card-info">
-          <h2>{props.title}</h2>
+          <h2>
+            {props.title}
+            {props.hasLink && (
+              <a href={props.link} target="_blank" rel="noreferrer noopener">
+                <AiOutlineLink color="blue" size={27} />
+              </a>
+            )}
+            {props.hasGitHub && (
+              <a href={props.gitHub} target="_blank" rel="noreferrer noopener">
+                <FiGithub color="blue" size={27} />
+              </a>
+            )}
+          </h2>
+
           <p>{props.description}</p>
           <div className="project__card-info__technology">
             {props.technologies.map((technology) => (
@@ -41,6 +56,10 @@ const Projects = function () {
             }
             technologies={["React", "JavaScript", "SASS"]}
             source={spacestagram}
+            hasLink={true}
+            link={"https://mudassirmirza.github.io/Spacestagram/"}
+            hasGitHub={true}
+            gitHub={"https://github.com/mudassirmirza/Spacestagram"}
           />
           <Project
             title={"One for All"}

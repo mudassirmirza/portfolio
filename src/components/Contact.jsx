@@ -19,10 +19,10 @@ const Contact = function () {
             action="https://formspree.io/f/mzbwbpkl"
             method="POST"
           >
-            <label for="name">Name</label>
-            <input type="text" id="name" required />
-            <label for="email">Email Address</label>
-            <input type="email" id="email" required />
+            <label for="full-name">Name</label>
+            <input type="text" name="name" id="full-name" required />
+            <label for="email-address">Email Address</label>
+            <input type="email" name="_replyto" id="email-address" required />
             <label for="message">Message</label>
             <textarea name="message" id="message" required />
             <div className="contact__container-button">
