@@ -6,6 +6,7 @@ import github from "../assets/contact/github.svg";
 import linkedin from "../assets/contact/linkedin.svg";
 import send from "../assets/contact/send.svg";
 const Contact = function () {
+  const handleSubmit = function () {};
   return (
     <div className="contact" id="contact">
       <div className="contact__container">
@@ -14,13 +15,17 @@ const Contact = function () {
         </div>
 
         <div className="contact__container-bg">
-          <form className="contact__container-message">
+          <form
+            className="contact__container-message"
+            action="https://formspree.io/f/mzbwbpkl"
+            method="POST"
+          >
             <label for="name">Name</label>
             <input type="text" id="name" required />
             <label for="email">Email Address</label>
-            <input type="text" id="email" required />
+            <input type="email" id="email" required />
             <label for="message">Message</label>
-            <textarea id="message" required />
+            <textarea name="message" id="message" required />
             <div className="contact__container-button">
               <button type="submit">
                 Send Message
