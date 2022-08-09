@@ -4,20 +4,24 @@
   align-items: center;
   min-height: 100vh;
 }
-.skills__container-title {
+.skills__container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 60%;
+}
+.skills__container-title {
   h1 {
+    text-align: center;
     font-size: 4em;
   }
 }
 .skills__container-images {
-  max-width: 85vw;
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
-  margin: 16rem 2rem;
+  justify-content: center;
+  margin-top: 10rem;
   gap: 8rem;
 
   div {
@@ -33,7 +37,7 @@
     width: min-content;
   }
   img {
-    min-width: 7rem;
+    min-width: 6rem;
   }
 }
 

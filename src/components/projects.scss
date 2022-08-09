@@ -9,7 +9,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 14rem 2rem;
+  margin: 6rem 2rem;
   gap: 5rem;
 }
 .projects__container {
@@ -151,6 +151,7 @@
     height: auto;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
   .project__card-info {
     margin: 0;
@@ -158,7 +159,6 @@
     order: 2;
     h2 {
       font-size: 1em;
-      text-align: center;
     }
     p {
       margin: 2rem;
@@ -168,11 +168,11 @@
   .project__card-info__technology {
     align-items: center;
     justify-content: center;
-    margin: 0.25rem 0.25rem 2rem 0rem;
+    margin: 0.25rem 2rem 2rem 2rem;
     gap: 1rem;
     flex-wrap: wrap;
     span {
-      font-size: 1em;
+      font-size: 0.9em;
     }
   }
   .project__card-image {

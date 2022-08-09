@@ -7,11 +7,12 @@ function App() {
       <Header />
       <Skills />
       <Projects />
+      <Contact />
       {/* \
       <Footer />
       
       
-      <Contact /> */}
+       */}
     </div>
   );
 }
