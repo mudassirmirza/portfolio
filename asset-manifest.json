@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6afad7ff.css",
+    "main.js": "/portfolio/static/js/main.d4fdb907.js",
+    "static/media/photo.svg": "/portfolio/static/media/photo.dbd1cc6804f719b0c84b1bce7deb9eeb.svg",
+    "static/media/moviesdb.jpg": "/portfolio/static/media/moviesdb.3394ee56d936a5c55559.jpg",
+    "static/media/Resume.pdf": "/portfolio/static/media/Resume.5ed6ee8ebf3c7eaf49d5.pdf",
+    "static/media/spacestagram.jpg": "/portfolio/static/media/spacestagram.ea1845e06f4f8a30388b.jpg",
+    "static/media/compshop.jpg": "/portfolio/static/media/compshop.82532267f2160e4555f3.jpg",
+    "static/media/oneforall.jpg": "/portfolio/static/media/oneforall.581fcb6f919a1e4a0bba.jpg",
+    "static/media/contact_form.svg": "/portfolio/static/media/contact_form.9ebc06e00f62c65ed901.svg",
+    "static/media/send.svg": "/portfolio/static/media/send.532c90ae143d77e18d2aad36a6343fb2.svg",
+    "static/media/Android Studio.svg": "/portfolio/static/media/Android Studio.d18e3ed1fcc152b6a4b5d8e616c2ee0a.svg",
+    "static/media/SQLite.svg": "/portfolio/static/media/SQLite.920c2cb5180e8c08cc0244ec87dd2bba.svg",
+    "static/media/MySQL.svg": "/portfolio/static/media/MySQL.3ece3ef09dae860178b59c73e9fe314f.svg",
+    "static/media/SASS.svg": "/portfolio/static/media/SASS.93725e16be4f3b739553b396d0504287.svg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.a2773c4040ca5d218689489d014db681.svg",
+    "static/media/Java.svg": "/portfolio/static/media/Java.6538847dffc110e2e45da4c7a5316037.svg",
+    "static/media/Bash.svg": "/portfolio/static/media/Bash.43effd2558c84702ed0616f6c2b04a0c.svg",
+    "static/media/contact_form_tablet.svg": "/portfolio/static/media/contact_form_tablet.3b28a8060e3a89e7388b.svg",
+    "static/media/footer_logo.svg": "/portfolio/static/media/footer_logo.d880cf33355b8bdfffb799817f651456.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.e668b4b382aa591b96f20c657dec91a1.svg",
+    "static/media/contact_form_phone.svg": "/portfolio/static/media/contact_form_phone.4f8a6b7d0cdbb98387ff.svg",
+    "static/media/JS.svg": "/portfolio/static/media/JS.0bc9ee53301c93072f2ad980ce545937.svg",
+    "static/media/Python.svg": "/portfolio/static/media/Python.d45781411a5ede49cf6ce6ea3bd50833.svg",
+    "static/media/React.svg": "/portfolio/static/media/React.0b7fc3569808bd69333ffdcaad096e43.svg",
+    "static/media/MongoDB.svg": "/portfolio/static/media/MongoDB.29ddd1af1e4d397258333a082b2d0f41.svg",
+    "static/media/Git.svg": "/portfolio/static/media/Git.caecd19969ef0f32803f4a9b1726aabf.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.0e18995c535b605d62a6e077befd2edd.svg",
+    "static/media/Figma.svg": "/portfolio/static/media/Figma.b03094e7d8af922ca6d2d214cc9fd6d5.svg",
+    "static/media/CSS.svg": "/portfolio/static/media/CSS.a90fd124b8e81ae8efd3db8a2e6e246a.svg",
+    "static/media/HTML.svg": "/portfolio/static/media/HTML.7804001bf379e91056d73008fc258d57.svg",
+    "static/media/email.svg": "/portfolio/static/media/email.405ef4b8d81671d27f0ff2c08206394f.svg",
+    "index.html": "/portfolio/index.html",
+    "main.6afad7ff.css.map": "/portfolio/static/css/main.6afad7ff.css.map",
+    "main.d4fdb907.js.map": "/portfolio/static/js/main.d4fdb907.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6afad7ff.css",
+    "static/js/main.d4fdb907.js"
+  ]
+}
