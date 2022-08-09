@@ -5,7 +5,7 @@ import resume from "../assets/Resume.pdf";
 
 const Header = function () {
   return (
-    <div className="header">
+    <div className="header" id="home">
       <div className="header__container">
         <div className="header__container-content">
           <h1 className="header__container-content_intro">Hi, I'm Mudassir.</h1>
