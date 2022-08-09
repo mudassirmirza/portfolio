@@ -1,0 +1,19 @@
+.footer {
+  max-width: 100vw;
+  background-color: var(--color-secondary);
+}
+.footer__container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  img {
+    width: 5rem;
+  }
+  h1 {
+    font-size: 1em;
+    color: white;
+  }
+}

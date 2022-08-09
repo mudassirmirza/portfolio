@@ -11,9 +11,11 @@ const Header = function () {
           <h1 className="header__container-content_intro">Hi, I'm Mudassir.</h1>
           <p>I'm a software developer based in Mississauga.</p>
           <div className="header__container-content_buttons">
-            <button className="btn__projects" type="button">
-              My Projects
-            </button>
+            <a href="#projects">
+              <button className="btn__projects" type="button">
+                My Projects
+              </button>
+            </a>
             <a href={resume} download>
               <button className="btn__resume" type="button">
                 My Resume

@@ -2,7 +2,7 @@
   margin-top: 8rem;
   display: flex;
   justify-content: center;
-  min-height: fit-content;
+  height: auto;
   overflow: hidden;
 }
 .contact__container {
@@ -20,7 +20,7 @@
 .contact__container-bg {
   display: flex;
   background-image: url("../assets/contact/contact_form.svg");
-  height: 51rem;
+  height: 50rem;
   width: 65rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -144,7 +144,7 @@
   }
 
   .contact__container-message {
-    margin: 3.5rem 0rem 0rem 0rem;
+    margin: 3rem 0rem 0rem 0rem;
     gap: 0.2rem;
 
     label {
@@ -169,7 +169,7 @@
     }
   }
   .contact__container-contact {
-    margin: 2.5rem;
+    margin: 1.9rem;
     p,
     a {
       font-size: 0.9em;
