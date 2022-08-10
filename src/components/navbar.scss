@@ -83,12 +83,16 @@
     margin: 1rem 0;
   }
 }
-.navbar__links-effect {
-  &:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 1.5px;
+
+@media screen and (min-width: 1050px) {
+  .navbar__links-effect {
+    &:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 1.5px;
+    }
   }
 }
+
 @media screen and (max-width: 1050px) {
   .navbar__links {
     flex: 0;
@@ -103,6 +107,10 @@
   .navbar__menu {
     display: flex;
     margin-left: auto;
+  }
+  .navbar__links-effect {
+    &:hover {
+    }
   }
 }
 
