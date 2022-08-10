@@ -30,31 +30,30 @@ const Navbar = function () {
   return (
     <div className="navbar">
       <div className="navbar__links">
-        <div className="navbar__links-logo">
-          <a href="#home">
-            <img src={logo} alt="logo" />
-          </a>
-        </div>
+        <a href="#home">
+          <img src={logo} alt="logo" />
+        </a>
         <div className="navbar__links-container">
           <Menu />
         </div>
-      </div>
-      {
-        <div className="navbar__menu">
-          {menuToggle ? (
-            <RiCloseLine color="#000" size={27} onClick={() => setMenuToggle(false)} />
-          ) : (
-            <RiMenu3Line color="#000" size={27} onClick={() => setMenuToggle(true)} />
-          )}
-          {menuToggle && (
-            <div className="navbar__menu-container scale-up-center">
-              <div className="navbar__menu-container_links">
-                <Menu />
+
+        {
+          <div className="navbar__menu">
+            {menuToggle ? (
+              <RiCloseLine color="#000" size={"2rem"} onClick={() => setMenuToggle(false)} />
+            ) : (
+              <RiMenu3Line color="#000" size={"2rem"} onClick={() => setMenuToggle(true)} />
+            )}
+            {menuToggle && (
+              <div className="navbar__menu-container scale-up-center">
+                <div className="navbar__menu-container_links">
+                  <Menu />
+                </div>
               </div>
-            </div>
-          )}
-        </div>
-      }
+            )}
+          </div>
+        }
+      </div>
     </div>
   );
 };

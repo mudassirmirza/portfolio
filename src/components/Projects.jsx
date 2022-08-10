@@ -12,19 +12,19 @@ const Project = function (props) {
     <>
       <div className="project__card">
         <div className="project__card-info">
-          <h2>
-            {props.title}
+          <div className="project__card-title">
+            <h2>{props.title}</h2>
             {props.hasLink && (
-              <a href={props.link} target="_blank" rel="noreferrer noopener">
-                <AiOutlineLink color="blue" size={27} />
-              </a>
+              <div className="project__card-links">
+                <a href={props.link} target="_blank" rel="noreferrer noopener">
+                  <AiOutlineLink className="project__link" color="black" size={"1.5em"} />
+                </a>
+                <a href={props.gitHub} target="_blank" rel="noreferrer noopener">
+                  <FiGithub className="project__github" color="black" size={"1.5em"} />
+                </a>
+              </div>
             )}
-            {props.hasGitHub && (
-              <a href={props.gitHub} target="_blank" rel="noreferrer noopener">
-                <FiGithub color="blue" size={27} />
-              </a>
-            )}
-          </h2>
+          </div>
 
           <p>{props.description}</p>
           <div className="project__card-info__technology">
@@ -33,9 +33,7 @@ const Project = function (props) {
             ))}
           </div>
         </div>
-        <div className="project__card-image">
-          <img src={props.source} alt="" />
-        </div>
+        <img src={props.source} alt="" />
       </div>
     </>
   );
@@ -52,13 +50,12 @@ const Projects = function () {
           <Project
             title={"Spacestagram"}
             description={
-              "Instagram clone website to view the NASA Astronomy Picture of the day. Infinitely scroll through the archives from today to June 16, 1995. Zoom into pictures, watch videos, and read each explanation to learn more about astronomy."
+              "Instagram clone website to view the NASA Astronomy Picture of the day. Zoom into pictures, watch videos, and read each explanation to learn more about astronomy."
             }
             technologies={["React", "JavaScript", "SASS"]}
             source={spacestagram}
             hasLink={true}
             link={"https://mudassirmirza.github.io/Spacestagram/"}
-            hasGitHub={true}
             gitHub={"https://github.com/mudassirmirza/Spacestagram"}
           />
           <Project
@@ -80,7 +77,7 @@ const Projects = function () {
           <Project
             title={"MoviesDB"}
             description={
-              "A database that contains tables for movies, genres, actors, directors, and production companies. Populated the database with an idempotent SQL script. Wrote SQL queries to retrieve relevant information such as movies an actor stars in, movies directed by a specific director, and characters played by an actor."
+              "A database that contains tables for movies, genres, actors, directors, and production companies. Wrote SQL queries to retrieve relevant information such as movies an actor stars in, movies directed by a specific director, and characters played by an actor."
             }
             technologies={["SQLite"]}
             source={moviesdb}
