@@ -30,7 +30,7 @@
   background-color: white;
   border-radius: 8px;
 
-  min-width: 55rem;
+  min-width: 100%;
   img {
     border-radius: 4px;
     object-fit: cover;
@@ -72,7 +72,7 @@
 .project__card-links {
   display: flex;
   gap: 1rem;
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 .project__card-info__technology {
   display: flex;
