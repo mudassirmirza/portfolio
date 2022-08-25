@@ -19,6 +19,7 @@
   p {
     overflow: hidden;
   }
+
   img {
     height: auto;
     width: 7rem;
@@ -30,6 +31,7 @@
   display: flex;
   flex-direction: row;
   margin-left: auto;
+
   a {
     text-decoration: none;
     color: black;
@@ -52,6 +54,7 @@
   svg {
     cursor: pointer;
   }
+
   a {
     text-decoration: none;
     color: black;
@@ -79,12 +82,13 @@
   min-width: 210px;
   border: 2px solid black;
   border-radius: 6px;
+
   p {
     margin: 1rem 0;
   }
 }
 
-@media screen and (min-width: 1050px) {
+@media (pointer: fine) {
   .navbar__links-effect {
     &:hover {
       text-decoration: underline;
@@ -100,6 +104,7 @@
     margin: 0;
     padding: 1rem 4rem;
   }
+
   .navbar__links-container {
     display: none;
   }
@@ -107,10 +112,6 @@
   .navbar__menu {
     display: flex;
     margin-left: auto;
-  }
-  .navbar__links-effect {
-    &:hover {
-    }
   }
 }
 

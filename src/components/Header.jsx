@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.scss";
 import picture from "../assets/photo.svg";
-import resume from "../assets/Resume.pdf";
+import resume from "../assets/Mudassir_Mirza_Resume.pdf";
 
 const Header = function () {
   return (

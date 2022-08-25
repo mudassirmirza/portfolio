@@ -36,7 +36,7 @@ const Contact = function () {
             <p>You can contact me through email:</p>
             <div className="email">
               <img src={email} alt="" />
-              <a href="mailto:mudmirza@cmail.carleton.ca">mudmirza@cmail.carleton.ca</a>
+              <a href="mailto:mudassir.miirza@gmail.com">mudassir.miirza@gmail.com</a>
             </div>
             <div className="socials">
               <a
