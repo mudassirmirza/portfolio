@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c5339f46.css",
-    "main.js": "/portfolio/static/js/main.75d1b53d.js",
+    "main.css": "/portfolio/static/css/main.57bf8284.css",
+    "main.js": "/portfolio/static/js/main.b52cc1e6.js",
     "static/media/photo.svg": "/portfolio/static/media/photo.dbd1cc6804f719b0c84b1bce7deb9eeb.svg",
     "static/media/moviesdb.jpg": "/portfolio/static/media/moviesdb.8efd851c77b9490ecaa5.jpg",
     "static/media/spacestagram.jpg": "/portfolio/static/media/spacestagram.c61a7695f3fb160b0a3e.jpg",
     "static/media/compshop.jpg": "/portfolio/static/media/compshop.78c987731a4813d9a857.jpg",
-    "static/media/Resume.pdf": "/portfolio/static/media/Resume.5ed6ee8ebf3c7eaf49d5.pdf",
+    "static/media/Mudassir_Mirza_Resume.pdf": "/portfolio/static/media/Mudassir_Mirza_Resume.35b392a51ef1921b20bb.pdf",
     "static/media/oneforall.jpg": "/portfolio/static/media/oneforall.6f36aacbfbc0c5d568d3.jpg",
     "static/media/contact_form.svg": "/portfolio/static/media/contact_form.9ebc06e00f62c65ed901.svg",
     "static/media/send.svg": "/portfolio/static/media/send.532c90ae143d77e18d2aad36a6343fb2.svg",
@@ -32,11 +32,11 @@
     "static/media/HTML.svg": "/portfolio/static/media/HTML.7804001bf379e91056d73008fc258d57.svg",
     "static/media/email.svg": "/portfolio/static/media/email.405ef4b8d81671d27f0ff2c08206394f.svg",
     "index.html": "/portfolio/index.html",
-    "main.c5339f46.css.map": "/portfolio/static/css/main.c5339f46.css.map",
-    "main.75d1b53d.js.map": "/portfolio/static/js/main.75d1b53d.js.map"
+    "main.57bf8284.css.map": "/portfolio/static/css/main.57bf8284.css.map",
+    "main.b52cc1e6.js.map": "/portfolio/static/js/main.b52cc1e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5339f46.css",
-    "static/js/main.75d1b53d.js"
+    "static/css/main.57bf8284.css",
+    "static/js/main.b52cc1e6.js"
   ]
 }
